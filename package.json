@@ -1,0 +1,21 @@
+{
+  "name": "gs-my-theme2",
+  "displayName": "GS my theme2",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GS my theme name",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GS my theme name-color-theme.json"
+      }
+    ]
+  }
+}
