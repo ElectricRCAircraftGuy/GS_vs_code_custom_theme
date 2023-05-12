@@ -701,7 +701,12 @@
 		{
 			"scope": [
 				"comment",
-				"string.quoted.docstring.multi.python"
+				// "string.quoted.docstring.multi.python"
+				// GS: just use this instead, to not be Python-specific. See the comment
+				// in my PR here:
+				// https://github.com/microsoft/vscode/pull/182162#issuecomment-1545296640
+				// - I just tested this in my theme, and it works!
+				"string.quoted.docstring"
 			],
 			"settings": {
 				"foreground": "#88846F"
